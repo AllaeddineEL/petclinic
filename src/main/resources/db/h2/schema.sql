@@ -8,7 +8,7 @@ DROP TABLE owners IF EXISTS;
 
 
 CREATE TABLE vets (
-  id         INTEGER(4) NOT NULL PRIMARY KEY,
+  id         INT(4) NOT NULL PRIMARY KEY,
   first_name VARCHAR(30),
   last_name  VARCHAR(30)
 );
